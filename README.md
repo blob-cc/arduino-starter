@@ -6,3 +6,27 @@
 <br/>
 
 ---
+
+
+Arduino is an open-source electronics platform based on easy-to-use hardware and software. It's designed for anyone interested in creating interactive projects, from beginners to experienced engineers. The core of the platform is the Arduino board, a microcontroller that can be programmed to sense and control physical objects like lights, motors, and sensors. 
+
+Arduino uses its own integrated development environment (IDE) and a simplified version of C/C++ to write code, making it accessible for those new to programming and electronics. The platform has a large, supportive community and a vast ecosystem of components, shields, and libraries, making it ideal for prototyping and learning about embedded systems, robotics, IoT, and creative coding.
+
+
+---
+
+## Colophon
+
+### Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+### License
+
+This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for details.
+
+### Contact
+
+Swing is developed by [Scape Agency](https://www.scape.agency). For any inquiries or support, please contact us at [info@scape.agency](info@scape.agency).
+
+---
