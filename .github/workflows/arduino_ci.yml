@@ -1,0 +1,23 @@
+name: Build Arduino Project
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Arduino CLI
+      uses: arduino/setup-arduino-cli@v1
+      with:
+        version: 0.19.0
+
+    - name: Install libraries
+      run: arduino-cli lib install "Adafruit GFX Library"
+
+    - name: Compile Sketch
+      run: arduino-cli compile --fqbn arduino:avr:uno src/main.ino
+
+    - name: Run Unit Tests
+      run: arduino-cli compile --fqbn arduino:avr:uno tests/test_led.ino
