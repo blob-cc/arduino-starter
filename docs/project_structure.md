@@ -57,12 +57,12 @@ Creating a template repository for creative coding with Arduino can provide a so
 
 ### 2. **Explanation of Key Components**
 
-- **`src/` Directory**: 
+- **`src/` Directory**:
   - `main.ino`: The main Arduino sketch where the core logic of your creative coding project resides.
   - `utils.h` & `utils.cpp`: Utility functions that can be reused across different projects.
   - `config.h`: Configuration file where you can define constants, pin assignments, and other settings.
 
-- **`examples/` Directory**: 
+- **`examples/` Directory**:
   - Example sketches demonstrating how to use the core functionality. These can be helpful for newcomers to quickly understand how to work with the code.
 
 - **`lib/` Directory**:
@@ -90,32 +90,32 @@ Creating a template repository for creative coding with Arduino can provide a so
   - The main documentation file that provides an overview of the project, setup instructions, and links to further resources.
 
 
-	•	src/ Directory:
-	•	components/:
-	•	Modular components like LED.h/cpp and Sensor.h/cpp encapsulate specific functionalities (e.g., controlling an LED, reading from a sensor). This promotes reusability and organization.
-	•	config.h & config.cpp:
-	•	Centralized configuration files for defining global settings, pin assignments, and system-wide constants, separated from the main logic to make it easy to adjust settings.
-	•	examples/ Directory:
-	•	Provide more complex examples demonstrating how different components work together. Include detailed comments and possibly a link to a video demo.
-	•	assets/ Directory:
-	•	schematics/:
-	•	Include circuit diagrams and other schematics to help users understand how to physically set up the project.
-	•	tests/ Directory:
-	•	Unit Tests:
-	•	Include test scripts (test_led.ino, test_sensor.ino) to validate individual components or modules. This helps ensure that each part of the project works correctly in isolation.
-	•	libraries/ Directory:
-	•	Store custom or third-party libraries. Include a readme explaining each library and its purpose.
-	•	docs/ Directory:
-	•	tutorials/:
-	•	Detailed step-by-step guides on how to use and expand the project. Include images and code snippets for clarity.
-	•	faq.md:
-	•	Frequently Asked Questions to address common issues and provide quick answers.
-	•	CONTRIBUTING.md:
-	•	Guidelines for contributing to the project, including code standards, pull request process, and issue reporting.
-	•	CI/ Directory:
-	•	Continuous Integration (CI):
-	•	arduino_ci.yml & platformio_ci.yml:
-	•	Configuration files for setting up CI pipelines on platforms like GitHub Actions. This ensures that every commit is automatically tested, helping maintain code quality.
+- src/ Directory:
+- components/:
+- Modular components like LED.h/cpp and Sensor.h/cpp encapsulate specific functionalities (e.g., controlling an LED, reading from a sensor). This promotes reusability and organization.
+- config.h & config.cpp:
+- Centralized configuration files for defining global settings, pin assignments, and system-wide constants, separated from the main logic to make it easy to adjust settings.
+- examples/ Directory:
+- Provide more complex examples demonstrating how different components work together. Include detailed comments and possibly a link to a video demo.
+- assets/ Directory:
+- schematics/:
+- Include circuit diagrams and other schematics to help users understand how to physically set up the project.
+- tests/ Directory:
+- Unit Tests:
+- Include test scripts (test_led.ino, test_sensor.ino) to validate individual components or modules. This helps ensure that each part of the project works correctly in isolation.
+- libraries/ Directory:
+- Store custom or third-party libraries. Include a readme explaining each library and its purpose.
+- docs/ Directory:
+- tutorials/:
+- Detailed step-by-step guides on how to use and expand the project. Include images and code snippets for clarity.
+- faq.md:
+- Frequently Asked Questions to address common issues and provide quick answers.
+- CONTRIBUTING.md:
+- Guidelines for contributing to the project, including code standards, pull request process, and issue reporting.
+- CI/ Directory:
+- Continuous Integration (CI):
+- arduino_ci.yml & platformio_ci.yml:
+- Configuration files for setting up CI pipelines on platforms like GitHub Actions. This ensures that every commit is automatically tested, helping maintain code quality.
 
 
 ### 3. **Additional Tips**
@@ -181,6 +181,6 @@ Creating a template repository for creative coding with Arduino can provide a so
 
 ### 5. **Setting Up the Repository**
 
-You can create this structure in a new GitHub repository, and populate the `README.md` with instructions on how to get started, including installation steps for necessary libraries and tools. 
+You can create this structure in a new GitHub repository, and populate the `README.md` with instructions on how to get started, including installation steps for necessary libraries and tools.
 
 Would you like further details or assistance with a specific part of this template?
